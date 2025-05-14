@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM Lab</title>
+    <style>
+        /* CSS variables for Python-like theming */
+        :root {
+            --python-yellow: #ffd343;
+            --python-blue: #4B8BBE;
+        }
+    </style>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="page-header">
+        <h1>Python Developer's JS Playground</h1>
+    </header>
+
+    <main id="main-content">
+        <section aria-label="Challenge section">
+            <p id="target-element">[Default Text] Let's manipulate me like Python's f-strings!</p>
+            <button class="action-btn" data-action="modify">Modify Text</button>
+            <button class="action-btn" data-action="style">Change Style</button>
+        </section>
+
+        <div id="dynamic-section">
+            <h2>Dynamic Elements (Like Python Lists)</h2>
+            <ul id="element-list"></ul>
+            <div class="btn-group">
+                <button id="add-element">Add Item (+)</button>
+                <button id="remove-element">Remove Item (-)</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="page-footer">
+        <p>✔️ DOM Manipulation mastered with Python logic!</p>
+    </footer>
+</body>
+</html>
